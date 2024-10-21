@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
   "name": "YouTube Playback Speed Controller",
-  "version": "1.2",
+  "version": "2.1",
   "permissions": ["activeTab", "scripting", "storage"],
   "action": {
     "default_popup": "popup.html"
   },
   "content_scripts": [
     {
-      "matches": ["*://www.youtube.com/*"],
+      "matches": ["*://*/*"],
       "js": ["content.js"]
     }
   ]
