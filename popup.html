@@ -11,17 +11,19 @@
       }
     </style>
   </head>
-  <body style="width: 200px;">
+  <body style="width: 300px;">
     <h3>Adjust Playback Speed</h3>
-    <div class="slider-value">Speed: <span id="speedDisplay">1</span>x</div>
+    <div class="slider-value">
+      Speed: <span id="speedDisplay">1</span>x
+    </div>
     <input
       type="range"
       id="speedSlider"
-      min="0.1"
+      min="0.0"
       max="10"
       value="1"
-      step="0.1"
-      style="width: 100%"
+      step="0.5"
+      style="width: 100%;"
     />
 
     <script src="popup.js"></script>
