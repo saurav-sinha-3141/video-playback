@@ -1,1 +1,1 @@
-Download ZIP here - https://github.com/saurav-sinha-3141/youtube-playback/archive/refs/heads/master.zip
+Download ZIP here - https://github.com/saurav-sinha-3141/video-playback/archive/refs/heads/master.zip
